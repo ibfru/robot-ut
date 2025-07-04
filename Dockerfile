@@ -8,5 +8,3 @@ RUN dnf -y install git gcc && \
     dnf clean all
 
 WORKDIR /opt
-
-ENTRYPOINT ["go", "--version"]
