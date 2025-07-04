@@ -10,3 +10,4 @@ RUN echo "machine github.com login ibfru password $PASS" > ~/.netrc && \
     dnf clean all
 
 WORKDIR /opt
+COPY unit_test.sh .
